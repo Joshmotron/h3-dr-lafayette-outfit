@@ -1,9 +1,9 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Test Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
+	"id": "DrLafayette.Baller",
+	"name": "Dr Lafayette Suit",
+	"description": "Creating the Doc's suit as a 47 loadout suit.",
+	"authors": ["The Reverend Tim Tom"],
 	"frameworkVersion": "2.25.1"
 }
