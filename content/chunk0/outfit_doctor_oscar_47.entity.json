@@ -75,18 +75,14 @@
 		"cafe270d6b2d3dc1": {
 			"parent": "cafe1629ec6837c7",
 			"name": "male_reg_jasper_knight_jacket_01",
-			"factory": "[assembly:/_pro/characters/assets/individuals/greenland/jasperknight/materials/male_reg_jasper_knight_jacket_01.mi].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/assets/individuals/greenland/jasperknight/materials/male_reg_jasper_knight_jacket_01.mi].pc_entityblueprint",
+			"factory": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_doctor_oscar_47/materials/jacket.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_doctor_oscar_47/materials/jacket.mi].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": 0.0,
-							"y": -1.8199180364608765,
-							"z": 0.0
-						}
+						"position": { "x": 0.0, "y": -1.82, "z": 0.0 }
 					}
 				},
 				"Diffuse_Hue_Shift_01_Value_op": {
@@ -95,7 +91,7 @@
 				},
 				"Diffuse_Hue_Shift_01_Value": {
 					"type": "float32",
-					"value": 0.9900000095367432
+					"value": 0.99
 				},
 				"Diffuse_Color_01_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
@@ -108,7 +104,7 @@
 				},
 				"Diffuse_Saturation_01_Value": {
 					"type": "float32",
-					"value": 0.6299999952316284
+					"value": 0.63
 				},
 				"ConstantVector1D_01_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
@@ -116,7 +112,7 @@
 				},
 				"ConstantVector1D_01_Value": {
 					"type": "float32",
-					"value": 0.699999988079071
+					"value": 0.7
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -199,7 +195,7 @@
 				"m_pMeshResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/_pro/characters/assets/individuals/italy/psychiatrist/geometry/male_reg_psychiatrist.wl2?/trousers_01.weightedprim](bodypart).pc_weightedprim",
+						"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_doctor_oscar_47/geometry/agent47_oscar.wl2?/trousers.weightedprim](bodypart).pc_weightedprim",
 						"flag": "5F"
 					}
 				},
@@ -220,7 +216,7 @@
 				"m_pMeshResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/_pro/characters/assets/individuals/italy/psychiatrist/geometry/male_reg_psychiatrist.wl2?/jacket_47.weightedprim](bodypart).pc_weightedprim",
+						"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_doctor_oscar_47/geometry/agent47_oscar.wl2?/jacket.weightedprim](bodypart).pc_weightedprim",
 						"flag": "5F"
 					}
 				}
@@ -309,7 +305,7 @@
 				"m_pMeshResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/_pro/characters/assets/individuals/italy/psychiatrist/geometry/male_reg_psychiatrist.wl2?/shoes_01.weightedprim](bodypart).pc_weightedprim",
+						"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_doctor_oscar_47/geometry/agent47_oscar.wl2?/shoes.weightedprim](bodypart).pc_weightedprim",
 						"flag": "5F"
 					}
 				},
@@ -330,7 +326,7 @@
 				"m_pMeshResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/_pro/characters/assets/individuals/italy/psychiatrist/geometry/male_reg_psychiatrist.wl2?/glasses_02.weightedprim](bodypart).pc_weightedprim",
+						"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_doctor_oscar_47/geometry/agent47_oscar.wl2?/glasses_02.weightedprim](bodypart).pc_weightedprim",
 						"flag": "5F"
 					}
 				},
@@ -346,7 +342,7 @@
 				"m_pMeshResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/_pro/characters/assets/individuals/italy/psychiatrist/geometry/male_reg_psychiatrist.wl2?/turtleneck_47.weightedprim](bodypart).pc_weightedprim",
+						"resource": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_doctor_oscar_47/geometry/agent47_oscar.wl2?/turtleneck.weightedprim](bodypart).pc_weightedprim",
 						"flag": "5F"
 					}
 				}

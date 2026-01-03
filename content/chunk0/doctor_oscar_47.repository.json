@@ -1,13 +1,13 @@
 {
 	"3216ed1d-e944-4c7a-a3e5-4f742c2bdcbd": {
-		"CommonName": "outfit_dr_oscar_47",
-		"Description": "outfit_dr_oscar_47_description_3216ed1d-e944-4c7a-a3e5-4f742c2bdcbd",
+		"CommonName": "char_doctor_oscar_47_m",
+		"Description": "UI_TOKEN_OUTFIT_DOCTOR_OSCAR_47_DESC",
 		"HeroDisguiseAvailable": true,
 		"Image": "images/unlockables/outfit_3216ed1d-e944-4c7a-a3e5-4f742c2bdcbd_0.jpg",
-		"Name": "outfit_dr_oscar_47_name_3216ed1d-e944-4c7a-a3e5-4f742c2bdcbd",
+		"Name": "UI_TOKEN_OUTFIT_DOCTOR_OSCAR_47_NAME",
 		"Category": "",
 		"ImageTransparent": "",
 		"IsHitmanSuit": true,
-		"TokenID": ""
+		"TokenID": "TOKEN_OUTFIT_DOCTOR_OSCAR_47"
 	}
 }

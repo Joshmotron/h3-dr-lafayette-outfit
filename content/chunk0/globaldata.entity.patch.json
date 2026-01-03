@@ -166,14 +166,14 @@
 						"m_rNameTextResource": {
 							"type": "ZRuntimeResourceID",
 							"value": {
-								"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_unique_psychiatrist_m_hpa472_name_fbf69e85-da3c-423b-bef9-da1b64f35f6b.sweetline].pc_sweetline",
+								"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero_s3.sweetmenutext?/char_doctor_oscar_47_m_name.sweetline].pc_sweetline",
 								"flag": "5F"
 							}
 						},
 						"m_rDescriptionTextResource": {
 							"type": "ZRuntimeResourceID",
 							"value": {
-								"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_unique_psychiatrist_m_hpa472_description_fbf69e85-da3c-423b-bef9-da1b64f35f6b.sweetline].pc_sweetline",
+								"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero_s3.sweetmenutext?/char_doctor_oscar_47_m_desc.sweetline].pc_sweetline",
 								"flag": "5F"
 							}
 						},

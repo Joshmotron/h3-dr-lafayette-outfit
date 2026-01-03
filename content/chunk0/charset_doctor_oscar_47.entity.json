@@ -16,21 +16,6 @@
 				}
 			}
 		},
-		"cafec4c639beac10": {
-			"parent": "cafe862c6750a9c4",
-			"name": "Var0",
-			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_dugong_heroa_v0.entitytemplate].pc_entitytemplate",
-						"flag": "9F"
-					}
-				}
-			}
-		},
 		"cafe862c6750a9c4": {
 			"parent": "cafeab3026b85dfd",
 			"name": "HeroA",

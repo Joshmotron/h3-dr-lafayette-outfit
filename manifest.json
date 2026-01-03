@@ -5,7 +5,19 @@
 	"name": "Dr Lafayette Suit",
 	"description": "Creating the Doc's suit as a 47 loadout suit.",
 	"authors": ["The Reverend Tim Tom"],
+	"contentFolders": ["content"],
+	"blobsFolders": ["blobs"],
 	"frameworkVersion": "2.25.1",
+	"localisedLines": {
+		"00D02F618903D463": "UI_TOKEN_OUTFIT_DOCTOR_OSCAR_47_DESC",
+		"0014ED0519FFD0A8": "UI_TOKEN_OUTFIT_DOCTOR_OSCAR_47_NAME"
+	},
+	"localisation": {
+		"english": {
+			"UI_TOKEN_OUTFIT_DOCTOR_OSCAR_47_DESC": "A suit with a striking resemblance to one worn by the famous psychiatrist.",
+			"UI_TOKEN_OUTFIT_DOCTOR_OSCAR_47_NAME": "Doctor Tobias Lafayette"
+		}
+	},
 	"dependencies": [
 		{
 			"portFromChunk1": true,
