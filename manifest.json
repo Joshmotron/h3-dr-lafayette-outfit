@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"id": "DrLafayette.Baller",
 	"name": "Dr Lafayette Suit",
 	"description": "Creating the Doc's suit as a 47 loadout suit.",
