@@ -6,4 +6,4 @@ Creating the Doc's suit as a 47 loadout suit.
 
 ---
 
-`DrLafayette.Baller` v0.2.0, by The Reverend Tim Tom. This README was automatically generated from the mod's manifest.
+`DrLafayette.Baller` v1.0.0, by The Reverend Tim Tom. This README was automatically generated from the mod's manifest.
