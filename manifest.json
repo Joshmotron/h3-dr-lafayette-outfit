@@ -3,7 +3,7 @@
 	"version": "0.2.0",
 	"id": "DrLafayette.Baller",
 	"name": "Dr Lafayette Suit",
-	"description": "Creating the Doc's suit as a 47 loadout suit.",
+	"description": "Creating the famous Doctor's suit as a 47 loadout suit.",
 	"authors": ["The Reverend Tim Tom"],
 	"contentFolders": ["content"],
 	"blobsFolders": ["blobs"],
