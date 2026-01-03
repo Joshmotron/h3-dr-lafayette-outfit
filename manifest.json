@@ -5,5 +5,27 @@
 	"name": "Dr Lafayette Suit",
 	"description": "Creating the Doc's suit as a 47 loadout suit.",
 	"authors": ["The Reverend Tim Tom"],
-	"frameworkVersion": "2.25.1"
+	"frameworkVersion": "2.25.1",
+	"dependencies": [
+		{
+			"portFromChunk1": true,
+			"runtimeID": "001EC2ABE6F7898D",
+			"toChunk": 0
+		},
+		{
+			"portFromChunk1": true,
+			"runtimeID": "0018DB4612066B86",
+			"toChunk": 0
+		},
+		{
+			"portFromChunk1": true,
+			"runtimeID": "0028BDF369ADE166",
+			"toChunk": 0
+		},
+		{
+			"portFromChunk1": true,
+			"runtimeID": "0059001D5F7EEE93",
+			"toChunk": 0
+		}
+	]
 }

@@ -1,0 +1,279 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafeb9c89f4f1a16",
+				{
+					"parent": "cafef8bf67d8b5a1",
+					"name": "KeywordEntity_FOLEY_OUTFIT_SUIT47",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafef8bf67d8b5a1"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed238a97bbe78",
+				{
+					"parent": "cafef8bf67d8b5a1",
+					"name": "CHARSET_Doctor_Oscar_47",
+					"factory": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_doctor_oscar_47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_doctor_oscar_47.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef52ca5bc28c9",
+				{
+					"parent": "cafef8bf67d8b5a1",
+					"name": "Prof_Sapienza_Unique_Psychiatrist",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_unique_psychiatrist.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_unique_psychiatrist.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafef8bf67d8b5a1"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe97a57b9bfbbf",
+				{
+					"parent": "cafef8bf67d8b5a1",
+					"name": "Keyword_DIALOGUE_NPC_LAFAYETTE",
+					"factory": "[modules:/zkeywordentity.class].pc_entitytype",
+					"blueprint": "[modules:/zkeywordentity.class].pc_entityblueprint",
+					"properties": {
+						"m_sKeyword": {
+							"type": "ZString",
+							"value": "DIALOGUE_NPC_LAFAYETTE"
+						},
+						"m_rHolder": {
+							"type": "SEntityTemplateReference",
+							"value": "cafef8bf67d8b5a1",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe4c9121e3357f",
+				{
+					"parent": "cafef8bf67d8b5a1",
+					"name": "Keyword_MUSIC_OUTFIT_REWARD",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_music_outfit_reward.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_music_outfit_reward.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rHolder": {
+							"type": "SEntityTemplateReference",
+							"value": "cafef8bf67d8b5a1",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef8bf67d8b5a1",
+				{
+					"parent": "0ba8ea9278df2079",
+					"name": "CHAR_Doctor_Oscar_47",
+					"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+					"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+					"properties": {
+						"m_DamageMultipliers": {
+							"type": "SBodyPartDamageMultipliers",
+							"value": {
+								"m_fHeadDamageMultiplier": 0.0,
+								"m_fFaceDamageMultiplier": 0.0,
+								"m_fArmDamageMultiplier": 0.0,
+								"m_fLArmDamageScalar": 0.0,
+								"m_fRArmDamageScalar": 0.0,
+								"m_fHandDamageMultiplier": 0.0,
+								"m_fLHandDamageScalar": 0.0,
+								"m_fRHandDamageScalar": 0.0,
+								"m_fLegDamageMultiplier": 0.0,
+								"m_fLLegDamageScalar": 0.0,
+								"m_fRLegDamageScalar": 0.0,
+								"m_fTorsoDamageMultiplier": 0.0,
+								"m_bApplyLeftRightScalars": false
+							}
+						},
+						"m_eActorType": {
+							"type": "EActorType",
+							"value": "eAT_Civilian"
+						},
+						"m_eActorCCClass": {
+							"type": "EActorCCPreset",
+							"value": "ACCP_CivilianeMale"
+						},
+						"m_bHeroDisguiseAvailable": {
+							"type": "bool",
+							"value": true
+						},
+						"m_aCharSets": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafed238a97bbe78"]
+						},
+						"m_eSoundFootwearType": {
+							"type": "EHM5SoundFootwearType",
+							"value": "EFWT_LEATHER"
+						},
+						"m_sId": {
+							"type": "ZGuid",
+							"value": "3216ed1d-e944-4c7a-a3e5-4f742c2bdcbd"
+						},
+						"m_pParentOutfit": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "6736fcbbd3e73209",
+								"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+							}
+						},
+						"m_aAnimationSets": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": []
+						},
+						"m_sCommonName": {
+							"type": "ZString",
+							"value": "Doctor_Oscar_47"
+						},
+						"m_sTitle": {
+							"type": "ZString",
+							"value": "Psychiatrist"
+						},
+						"m_eOutfitAICategory": {
+							"type": "EOutfitAICategory",
+							"value": "OAC_Psych"
+						},
+						"m_rNameTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_unique_psychiatrist_m_hpa472_name_fbf69e85-da3c-423b-bef9-da1b64f35f6b.sweetline].pc_sweetline",
+								"flag": "5F"
+							}
+						},
+						"m_rDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_unique_psychiatrist_m_hpa472_description_fbf69e85-da3c-423b-bef9-da1b64f35f6b.sweetline].pc_sweetline",
+								"flag": "5F"
+							}
+						},
+						"m_rDefaultVoiceVariations": {
+							"type": "TArray<EActorVoiceVariation>",
+							"value": ["eAVV_CIVMALE02"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeb4d65125d275",
+				{
+					"parent": "cafef8bf67d8b5a1",
+					"name": "Prof_Sapienza_Unique",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_unique.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_unique.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafef8bf67d8b5a1"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe27746a30a3ba",
+				{
+					"parent": "cafef8bf67d8b5a1",
+					"name": "Prof_Sapienza",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafef8bf67d8b5a1"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafecbe358a9fc22",
+				{
+					"parent": "cafef8bf67d8b5a1",
+					"name": "Keyword_Prof_Class_Default",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafef8bf67d8b5a1"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe76afd4ee39b8",
+				{
+					"parent": "cafef8bf67d8b5a1",
+					"name": "Keyword_Prof_Class_Worker_Scientist",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_worker_scientist.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_worker_scientist.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafef8bf67d8b5a1"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef3f0b31f4530",
+				{
+					"parent": "cafef8bf67d8b5a1",
+					"name": "Prof_Agent47",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafef8bf67d8b5a1"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddExternalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+		}
+	],
+	"patchVersion": 6
+}

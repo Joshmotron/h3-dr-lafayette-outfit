@@ -1,0 +1,24 @@
+{
+	"TOKEN_OUTFIT_DOCTOR_OSCAR_47": {
+		"Guid": "e71c74b6-a999-402e-94a8-14a41d9337a6",
+		"Type": "disguise",
+		"Subtype": "classic",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 2,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "3216ed1d-e944-4c7a-a3e5-4f742c2bdcbd",
+			"OrderIndex": 22
+		},
+		"Rarity": "common"
+	}
+}
