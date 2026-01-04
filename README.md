@@ -1,6 +1,6 @@
 # Dr Lafayette Suit
 
-Creating the Doc's suit as a 47 loadout suit.
+Creating the famous Doctor's suit as a 47 loadout suit.
 
 [Install](https://hitman-resources.netlify.app/smf-install-link/https://github.com/Joshmotron/h3-dr-lafayette-outfit/releases/latest/download/mod.framework.zip) | [Download](https://github.com/Joshmotron/h3-dr-lafayette-outfit/releases/latest/download/mod.framework.zip)
 
