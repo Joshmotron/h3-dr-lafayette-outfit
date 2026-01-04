@@ -1,13 +1,13 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.2.0",
+	"version": "1.0.0",
 	"id": "DrLafayette.Baller",
 	"name": "Dr Lafayette Suit",
 	"description": "Creating the famous psychiatrist's suit as a 47 loadout suit.",
 	"authors": ["The Reverend Tim Tom"],
 	"contentFolders": ["content"],
 	"blobsFolders": ["blobs"],
-	"frameworkVersion": "2.25.1",
+	"frameworkVersion": "2.33.33",
 	"localisedLines": {
 		"00D02F618903D463": "UI_TOKEN_OUTFIT_DOCTOR_OSCAR_47_DESC",
 		"0014ED0519FFD0A8": "UI_TOKEN_OUTFIT_DOCTOR_OSCAR_47_NAME"
@@ -39,5 +39,6 @@
 			"runtimeID": "0059001D5F7EEE93",
 			"toChunk": 0
 		}
-	]
+	],
+	"updateCheck": "https://github.com/Joshmotron/h3-dr-lafayette-outfit/releases/latest/download/updates.json"
 }
