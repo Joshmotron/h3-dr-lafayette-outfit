@@ -6,4 +6,4 @@ Creating the famous psychiatrist's suit as an Agent 47 loadout suit.
 
 ---
 
-`DrLafayette.Baller` v2.0.0, by The Reverend Tim Tom. This README was automatically generated from the mod's manifest.
+`DrLafayette.Baller` v3.0.0, by The Reverend Tim Tom. This README was automatically generated from the mod's manifest.
