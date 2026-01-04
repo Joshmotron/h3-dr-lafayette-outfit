@@ -49,6 +49,10 @@
 		"[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_doctor_oscar_47/textures/agent47_oscar_shoes.texture?/diffuse_a.tex](ascolormap).pc_tex",
 		"[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_doctor_oscar_47/textures/agent47_oscar_shoes.texture?/diffuse_a.tex](ascolormap).pc_mipblock1",
 		"[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero_s3.sweetmenutext?/char_doctor_oscar_47_m_name.sweetline].pc_sweetline",
-		"[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero_s3.sweetmenutext?/char_doctor_oscar_47_m_desc.sweetline].pc_sweetline"
+		"[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero_s3.sweetmenutext?/char_doctor_oscar_47_m_desc.sweetline].pc_sweetline",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_doctor_oscar_47.entitytemplate].pc_entitytype",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_doctor_oscar_47.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_doctor_oscar_47.entitytemplate].pc_entitytemplate",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_doctor_oscar_47.entitytemplate].pc_entityblueprint"
 	]
 }
